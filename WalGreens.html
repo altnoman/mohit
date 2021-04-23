@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link rel="stylesheet" href="WalGreens.css"/>
+<link rel="stylesheet" href="K:\fontawesome\fontawsome-free-5.13.0-web\fontawsome-free-5.13.0-web\css\all.min.css">
+
+<script>
+function stickyMenu(){
+     var sticky=document.getElementById('sticky');
+     if(window.pageYoffset >220){
+	    sticky.classList.add('sticky');
+		}
+		else{
+		sticky.classList.remove('sticky');
+		}
+}
+ window.onscroll= function(){
+      stickyMenu();
+	  }
+</script>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="page-title">WalGreens</div> 
+    </div>
+    <div class="menu" id="sticky">
+          <ul class="menu-ul">
+              <a href="#" class="a-menu"><li>Home</li></a>
+              <a href="#Deals" class="a-menu"><li>Deals</li></a>
+              <a href="#Vegetables" class="a-menu"><li>Vegetables</li></a>
+              <a href="#Fruits" class="a-menu"><li>Fruits</li></a>
+              <a href="#Meat" class="a-menu"><li>Meat</li></a>
+              <a href="#Fish" class="a-menu"><li>Fish</li></a>
+              <a href="#" class="a-menu"><li>Cart</li></a>
+          </ul>
+          <div class="search-box">
+              <form>
+                 <input type="text" placeholder="Search..." name="search" class="search-input"/>
+                 <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+          </div>
+		  
+		     </div>
+	 
+	 
+	 	  <!----Home Page Begins---->
+	      <div class="container">
+		      <a href="#Vegetables">
+			  <div class="Categories">
+                  <img src="greenpeppers1.jpg"class="item-image"/>
+                  <div class ="image-title">Vegetables</div>
+              </div>
+			  </a>
+              <a href="#Fruits">
+                <div class="Categories">
+                    <img src="strawberry.jpg"class="item-image"/>
+                    <div class ="image-title">Fruits</div>
+                </div>
+                </a>
+              <a href="#Meat">
+                <div class="Categories">
+                     <img src="chicken.jpg"class="item-image"/>
+                     <div class ="image-title">Meat</div>
+                </div>
+                <a href="#Fish">
+                    <div class="Categories">
+                         <img src="Hilsa.jpg"class="item-image"/>
+                         <div class ="image-title">Fish</div>
+                    </div>
+                    </a>
+                </a>
+                    <a href="#Deals">
+                        <div class="Categories">
+                            <img src="fr4.jpg"class="item-image"/>
+                            <div class ="image-title">Deals</div>
+                        </div>
+                        </a>
+                </div>
+		        <!--Deal Begins Here-->
+                <div class="deal-container" id="deals">
+                    <div class="parallax">
+                           <div class ="title">
+                                 <div class ="title">DEALS</div>
+                           </div>
+                           <div class="deal">
+                                Save 20% min-purchase of 149Tk on vegetable <br/>
+                                <button class="coupon-btn">Add Coupon </button>
+                           </div>
+                           <div class="deal">
+                                Save 10% min-purchase of 179Tk on fruits <br/>
+                                <button class="coupon-btn">Add Coupon </button>
+                           </div>
+                           <div class="deal">
+                                Save 15% min-purchase of 149Tk on Meat<br/>
+                                <button class="coupon-btn">Add Coupon </button>
+                           </div>
+                           <div class="deal">
+                            Save 15% min-purchase of 80Tk on Fish<br/>
+                            <button class="coupon-btn">Add Coupon </button>
+                       </div>
+                     </div>
+         <!--Deal Ends Here-->
+         <!--Veg Begins Here-->
+                <div class ="deals-container" id ="Vegetable">
+                     <div class ="parallax">
+                           <div class="title">Vegetable</div>
+                     </div>
+                     <div class ="items">
+                           <div class=" image">
+                                <img src="okra.jpg" class="item-image-size"/>
+                           </div>
+                     <div class ="description">
+                         <b>Organic Okra</b><br/>
+                         <div class ="item-select">
+                                Price : 20tk/250grams
+                         </div>
+                         <label>Qty:</label>
+                         <select class="item-select">
+                                <option>250 grams</option>
+                                <option>500 grams</option>
+                                <option>750 grams</option>
+                                <option>1000 grams</option>
+                         </select><br/>
+                         <button class="buynow-btn">Buy now</button>
+                     </div>
+                     </div>
+                     <div class ="items">
+                           <div class=" image">
+                                <img src="greenpeppers1.jpg" class="item-image-size"/>
+                           </div>
+                     <div class ="description">
+                         <b>Organic Greenpepper</b><br/>
+                         <div class ="item-select">
+                                Price : 40tk/250grams
+                         </div>
+                         <label>Qty:</label>
+                         <select class="item-select">
+                                <option>250 grams</option>
+                                <option>500 grams</option>
+                                <option>750 grams</option>
+                                <option>1000 grams</option>
+                         </select><br/>
+                         <button class="buynow-btn">Buy now</button>
+                     </div>
+                     </div>
+                    <div class ="items">
+                           <div class=" image">
+                                <img src="tomato1.jpg" class="item-image-size"/>
+                           </div>
+                     <div class ="description">
+                         <b>Organic Tomatoes</b><br/>
+                         <div class ="item-select">
+                                Price : 22Tk/250grams
+                         </div>
+                         <label>Qty:</label>
+                         <select class="item-select">
+                                <option>250 grams</option>
+                                <option>500 grams</option>
+                                <option>750 grams</option>
+                                <option>1000 grams</option>
+                         </select><br/>
+                         <button class="buynow-btn">Buy now</button>
+                     </div>
+                     </div>
+                     <div class ="items">
+                           <div class=" image">
+                                <img src="onion.jpg" class="item-image-size"/>
+                           </div>
+                     <div class ="description">
+                         <b>Yellow Onion</b><br/>
+                         <div class ="item-select">
+                                Price : 28TK/250grams
+                         </div>
+                         <label>Qty:</label>
+                         <select class="item-select">
+                                <option>250 grams</option>
+                                <option>500 grams</option>
+                                <option>750 grams</option>
+                                <option>1000 grams</option>
+                         </select><br/>
+                         <button class="buynow-btn">Buy now</button>
+                     </div>
+                     </div>
+                     <div class ="items">
+                        <div class=" image">
+                             <img src="spinach2.jpg" class="item-image-size"/>
+                        </div>
+                  <div class ="description">
+                      <b>Spinach</b><br/>
+                      <div class ="item-select">
+                             Price : 8TK/250grams
+                      </div>
+                      <label>Qty:</label>
+                      <select class="item-select">
+                             <option>250 grams</option>
+                             <option>500 grams</option>
+                             <option>750 grams</option>
+                             <option>1000 grams</option>
+                      </select><br/>
+                      <button class="buynow-btn">Buy now</button>
+                  </div>
+                  </div>
+                  <div class ="items">
+                    <div class=" image">
+                         <img src="carrot.jpg" class="item-image-size"/>
+                    </div>
+              <div class ="description">
+                  <b>Carrot</b><br/>
+                  <div class ="item-select">
+                         Price : 20TK/250grams
+                  </div>
+                  <label>Qty:</label>
+                  <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                  </select><br/>
+                  <button class="buynow-btn">Buy now</button>
+              </div>
+              </div>
+              <!--Veg Ends Here-->
+
+              <!--Fruits Begins Here-->
+              <div class ="deals-container" id ="Fruit">
+                <div class ="parallax">
+                      <div class="title">Fruit</div>
+                </div>
+                <div class ="items">
+                      <div class=" image">
+                           <img src="Apple.jpg" class="item-image-size"/>
+                      </div>
+                <div class ="description">
+                    <b>Organic Apple</b><br/>
+                    <div class ="item-select">
+                           Price : 50tk/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                           <option>250 grams</option>
+                           <option>500 grams</option>
+                           <option>750 grams</option>
+                           <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy now</button>
+                </div>
+                </div>
+                <div class ="items">
+                      <div class=" image">
+                           <img src="Kiwi.jpg" class="item-image-size"/>
+                      </div>
+                <div class ="description">
+                    <b>Organic Kiwi</b><br/>
+                    <div class ="item-select">
+                           Price : 100tk/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                           <option>250 grams</option>
+                           <option>500 grams</option>
+                           <option>750 grams</option>
+                           <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy now</button>
+                </div>
+                </div>
+               <div class ="items">
+                      <div class=" image">
+                           <img src="Dragon1.jpg" class="item-image-size"/>
+                      </div>
+                <div class ="description">
+                    <b>Organic Dragon Fruit</b><br/>
+                    <div class ="item-select">
+                           Price : 125Tk/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                           <option>250 grams</option>
+                           <option>500 grams</option>
+                           <option>750 grams</option>
+                           <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy now</button>
+                </div>
+                </div>
+                <div class ="items">
+                      <div class=" image">
+                           <img src="strawberry.jpg" class="item-image-size"/>
+                      </div>
+                <div class ="description">
+                    <b>Organic Strawberry</b><br/>
+                    <div class ="item-select">
+                           Price : 100TK/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                           <option>250 grams</option>
+                           <option>500 grams</option>
+                           <option>750 grams</option>
+                           <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy now</button>
+                </div>
+                </div>
+                <div class ="items">
+                   <div class=" image">
+                        <img src="Watermelon1.jpg" class="item-image-size"/>
+                   </div>
+             <div class ="description">
+                 <b>Watermelon</b><br/>
+                 <div class ="item-select">
+                        Price : 15TK/250grams
+                 </div>
+                 <label>Qty:</label>
+                 <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                 </select><br/>
+                 <button class="buynow-btn">Buy now</button>
+             </div>
+             </div>
+             <div class ="items">
+               <div class=" image">
+                    <img src="Banana.jpg" class="item-image-size"/>
+               </div>
+         <div class ="description">
+             <b>Banana</b><br/>
+             <div class ="item-select">
+                    Price : 15TK/250grams
+             </div>
+             <label>Qty:</label>
+             <select class="item-select">
+                    <option>250 grams</option>
+                    <option>500 grams</option>
+                    <option>750 grams</option>
+                    <option>1000 grams</option>
+             </select><br/>
+             <button class="buynow-btn">Buy now</button>
+         </div>
+         </div>
+         <!--Fruits End Here-->
+
+
+         <!--Meats Begins Here-->
+         <div class ="deals-container" id ="Meat">
+            <div class ="parallax">
+                  <div class="title">Meat</div>
+            </div>
+            <div class ="items">
+                  <div class=" image">
+                       <img src="chicken.jpg" class="item-image-size"/>
+                  </div>
+            <div class ="description">
+                <b>Chicken</b><br/>
+                <div class ="item-select">
+                       Price : 80tk/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                       <option>250 grams</option>
+                       <option>500 grams</option>
+                       <option>750 grams</option>
+                       <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+            </div>
+            <div class ="items">
+                  <div class=" image">
+                       <img src="Beef.jpg" class="item-image-size"/>
+                  </div>
+            <div class ="description">
+                <b>Beef</b><br/>
+                <div class ="item-select">
+                       Price : 150tk/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                       <option>250 grams</option>
+                       <option>500 grams</option>
+                       <option>750 grams</option>
+                       <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+            </div>
+           <div class ="items">
+                  <div class=" image">
+                       <img src="Mutton.jpg" class="item-image-size"/>
+                  </div>
+            <div class ="description">
+                <b>Mutton</b><br/>
+                <div class ="item-select">
+                       Price : 200Tk/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                       <option>250 grams</option>
+                       <option>500 grams</option>
+                       <option>750 grams</option>
+                       <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+            </div>
+            <div class ="items">
+                  <div class=" image">
+                       <img src="Lamb meat.jpg" class="item-image-size"/>
+                  </div>
+            <div class ="description">
+                <b>Lamb meat</b><br/>
+                <div class ="item-select">
+                       Price : 180TK/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                       <option>250 grams</option>
+                       <option>500 grams</option>
+                       <option>750 grams</option>
+                       <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+            </div>
+            <div class ="items">
+               <div class=" image">
+                    <img src="Duck Meat.jpg" class="item-image-size"/>
+               </div>
+         <div class ="description">
+             <b>Duck Meat</b><br/>
+             <div class ="item-select">
+                    Price : 150TK/250grams
+             </div>
+             <label>Qty:</label>
+             <select class="item-select">
+                    <option>250 grams</option>
+                    <option>500 grams</option>
+                    <option>750 grams</option>
+                    <option>1000 grams</option>
+             </select><br/>
+             <button class="buynow-btn">Buy now</button>
+         </div>
+         </div>
+     <!--Meats End Here-->
+
+     <!--Fish Begins Here-->
+     <div class ="deals-container" id ="Fish">
+        <div class ="parallax">
+              <div class="title">Fish</div>
+        </div>
+        <div class ="items">
+              <div class=" image">
+                   <img src="Hilsa.jpg" class="item-image-size"/>
+              </div>
+        <div class ="description">
+            <b>Hilsa Fish</b><br/>
+            <div class ="item-select">
+                   Price : 300tk/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                   <option>250 grams</option>
+                   <option>500 grams</option>
+                   <option>750 grams</option>
+                   <option>1000 grams</option>
+            </select><br/>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        </div>
+        <div class ="items">
+              <div class=" image">
+                   <img src="Rui.jpg" class="item-image-size"/>
+              </div>
+        <div class ="description">
+            <b>Rui Fish</b><br/>
+            <div class ="item-select">
+                   Price : 70tk/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                   <option>250 grams</option>
+                   <option>500 grams</option>
+                   <option>750 grams</option>
+                   <option>1000 grams</option>
+            </select><br/>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        </div>
+       <div class ="items">
+              <div class=" image">
+                   <img src="Catla.jpg" class="item-image-size"/>
+              </div>
+        <div class ="description">
+            <b>Catla Fish</b><br/>
+            <div class ="item-select">
+                   Price : 80Tk/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                   <option>250 grams</option>
+                   <option>500 grams</option>
+                   <option>750 grams</option>
+                   <option>1000 grams</option>
+            </select><br/>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        </div>
+        <div class ="items">
+              <div class=" image">
+                   <img src="Carplet.jpg" class="item-image-size"/>
+              </div>
+        <div class ="description">
+            <b>Carplet(Mala) Fish</b><br/>
+            <div class ="item-select">
+                   Price : 150TK/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                   <option>250 grams</option>
+                   <option>500 grams</option>
+                   <option>750 grams</option>
+                   <option>1000 grams</option>
+            </select><br/>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        </div>
+        <div class ="items">
+           <div class=" image">
+                <img src="Puti.jpg" class="item-image-size"/>
+           </div>
+     <div class ="description">
+         <b>Puti Fish</b><br/>
+         <div class ="item-select">
+                Price : 100TK/250grams
+         </div>
+         <label>Qty:</label>
+         <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+         </select><br/>
+         <button class="buynow-btn">Buy now</button>
+     </div>
+     </div>
+     <div class ="items">
+        <div class=" image">
+             <img src="Climbing perch.jpg" class="item-image-size"/>
+        </div>
+  <div class ="description">
+      <b>Climbing Perch(Koi) Fish</b><br/>
+      <div class ="item-select">
+             Price : 200tk/250grams
+      </div>
+      <label>Qty:</label>
+      <select class="item-select">
+             <option>250 grams</option>
+             <option>500 grams</option>
+             <option>750 grams</option>
+             <option>1000 grams</option>
+      </select><br/>
+      <button class="buynow-btn">Buy now</button>
+  </div>
+  </div>
+</div>
+      <!--Fish End Here-->
+	  <!-----Home Page Ends----->  
+
+	<!--footer starts here-->  
+       <div class="parallax1">
+           <div class ="footer">
+             <div class = "quick-links">
+                 <div>Locations</div>
+                 <ul>
+                     <li><a href="" class="a-links">Kalabagan,Dhaka</a></li>
+                     <li><a href="" class="a-links">Banani,Dhaka</a></li>
+                     <li><a href="" class="a-links">Chawk Bazar,Chittagong</a></li>
+                 </ul>
+             </div>
+             <div class = "quick-links">
+                <div>Careers</div>
+                <ul>
+                    <li><a href="" class="a-links">Packing Staff</a></li>
+                    <li><a href="" class="a-links">Delivery Agents</a></li>
+                    <li><a href="" class="a-links">Self Fillers</a></li>
+                </ul>
+            </div>
+            <div class = "quick-links">
+                <div>Quick Links</div>
+                <ul>
+                    <li><a href="" class="a-links">Contact Us</a></li>
+                    <li><a href="" class="a-links">FAQ</a></li>
+                    <li><a href="" class="a-links">Help</a></li>
+                </ul>
+            </div>
+           </div>
+       </div>
+       <div class="copyrights">
+            <i class="far fa-copyright fa-lx">© WalGreens 2021 All Rights Reserved</i>
+       </div>
+    <!--footer ends here-->
+     
+</body>
+</html>
+    
